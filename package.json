@@ -1,0 +1,26 @@
+{
+  "name": "noir-and-bean",
+  "version": "1.0.0",
+  "private": true,
+  "description": "npm install && npm run dev Routes: / /menu /our-story /visit /order/:slug /confirmed/:slug Set SITE in src/components/Seo.jsx to your real domain. For SPA hosting add a rewrite of all paths to /index.html (Netlify: public/_redirects \"/* /index.html 200\").",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "vite.config.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-router-dom": "^6.26.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}
